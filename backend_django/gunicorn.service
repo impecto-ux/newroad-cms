@@ -1,0 +1,12 @@
+[Unit]
+Description=gunicorn daemon for NewRoad CMS
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/var/www/newroad-cms/backend_django
+ExecStart=/var/www/newroad-cms/backend_django/venv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/var/www/newroad-cms/backend_django/newroad.sock newroad.wsgi:application
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,49 @@
+{
+    "header": {
+        "logoLight": "https://newroad.com.tr/_website/images/logo-light.png",
+        "logoDark": "https://newroad.com.tr/_website/images/logo-dark.png",
+        "links": [
+            {
+                "label": "Home",
+                "url": "/"
+            },
+            {
+                "label": "Works",
+                "url": "/works"
+            },
+            {
+                "label": "Contact",
+                "url": "/contact"
+            }
+        ]
+    },
+    "hero": {
+        "videoUrl": "https://newroad.com.tr/storage/web_teaser_1-20250219200849.mp4",
+        "posterUrl": "https://newroad.com.tr/storage/web_teaser_1-20250219200849.mp4",
+        "titleLine1": "CREATIVE",
+        "titleLine2": "VISION"
+    },
+    "works": [
+        {
+            "id": 1,
+            "title": "TURKISH AIRLINES",
+            "category": "91.Yıl",
+            "image": "https://newroad.com.tr/storage/thy-20250221223611.webp",
+            "link": "/project/turkish-airlines"
+        },
+        {
+            "id": 2,
+            "title": "MONACO CHAIN",
+            "category": "Monaco Chain x Melissa Vargas",
+            "image": "https://newroad.com.tr/storage/monaco-20250221224128.webp",
+            "link": "/project/monaco-chain"
+        },
+        {
+            "id": 3,
+            "title": "ŞAHSİYET",
+            "category": "Season 2",
+            "image": "https://newroad.com.tr/storage/sahsiyet-20250221224908.webp",
+            "link": "/project/sahsiyet"
+        }
+    ]
+}
