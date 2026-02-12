@@ -49,7 +49,7 @@ export const ContentProvider = ({ children }: { children: ReactNode }) => {
     const fetchData = async () => {
         try {
             setLoading(true);
-            const response = await axios.get('http://localhost:8000/api/content/');
+            const response = await axios.get('/api/content/');
             setData(response.data);
             setError(null);
         } catch (err) {
